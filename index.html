@@ -1,0 +1,12 @@
+<h1>Unesite tekst za enkripciju/dekripciju:</h1>
+<h2><b style="color:red">Napomena: Da biste dekriptovali poruku morate je prvo enkriptovati! Jedinstven kljuc se generise za svaku poruku.</b></h2>
+<textarea style="width:30%; height:30%; display:flex" id="textInput"></textarea>
+<button onclick="startEncrypting(document.getElementById('textInput').value)">Enkriptuj</button>
+<button onclick="startDecrypting(document.getElementById('textInput').value)">Dekriptuj</button>
+<br><br>
+<h1>Enkriptovana/dekriptovana poruka:</h1>
+<textarea style="width:30%; height:30%; display:flex" id="textOutput"> </textarea>
+
+
+<script src="symbols.json"></script>
+<script src="script.js"></script>
